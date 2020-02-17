@@ -32,7 +32,7 @@ document.getElementById("demo2").innerHTML =
 "navigator.appCodeName is " + navigator.appCodeName;
 document.getElementById("demo3").innerHTML =
 "navigator.product is " + navigator.product;
-document.getElementById("demo").innerHTML =
+document.getElementById("demo4").innerHTML =
 "navigator.appVersion is " + navigator.appVersion;
 </script>
 
