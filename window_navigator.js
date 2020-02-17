@@ -11,11 +11,18 @@
 <p>The appName property returns the application name of the browser:</p>
 
 <p id="demo1"></p>
+
+<p>The appCodeName property returns the code name of the browser.</p>
+
+<p id="demo2"></p>
+
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.cookieEnabled is " + navigator.cookieEnabled;
 document.getElementById("demo1").innerHTML = 
 "navigator.appName is " + navigator.appName;
+document.getElementById("demo2").innerHTML = 
+"navigator.appCodeName is " + navigator.appCodeName;
 </script>
 
 </body>
