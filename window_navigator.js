@@ -23,6 +23,10 @@
 <p>The appVersion property returns version information about the browser:</p>
 
 <p id="demo4"></p>
+
+<p>The platform property returns the browser platform (operating system):</p>
+
+<p id="demo5"></p>
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.cookieEnabled is " + navigator.cookieEnabled;
@@ -34,6 +38,8 @@ document.getElementById("demo3").innerHTML =
 "navigator.product is " + navigator.product;
 document.getElementById("demo4").innerHTML =
 "navigator.appVersion is " + navigator.appVersion;
+document.getElementById("demo5").innerHTML = 
+"navigator.platform is " + navigator.platform;
 </script>
 
 </body>
