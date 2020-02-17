@@ -19,6 +19,10 @@
 <p>The product property returns the product name of the browser.</p>
 
 <p id="demo3"></p>
+
+<p>The appVersion property returns version information about the browser:</p>
+
+<p id="demo4"></p>
 <script>
 document.getElementById("demo").innerHTML =
 "navigator.cookieEnabled is " + navigator.cookieEnabled;
@@ -28,6 +32,8 @@ document.getElementById("demo2").innerHTML =
 "navigator.appCodeName is " + navigator.appCodeName;
 document.getElementById("demo3").innerHTML =
 "navigator.product is " + navigator.product;
+document.getElementById("demo").innerHTML =
+"navigator.appVersion is " + navigator.appVersion;
 </script>
 
 </body>
